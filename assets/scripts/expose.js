@@ -47,7 +47,7 @@ function init() {
   const volumeSlider = document.querySelector('#volume');
   const volumeImage = document.querySelector('#volume-controls img');
 
-  volumeSlider.addEventListener('change', function() {
+  volumeSlider.addEventListener('input', function() {
     // Get the volume value from the slider
     const volumeValue = volumeSlider.value;
 
