@@ -91,3 +91,4 @@ test('invalid hex color with special characters', () => {
   expect(isHexColor('#123!')).toBe(false);
 } );
 
+//
